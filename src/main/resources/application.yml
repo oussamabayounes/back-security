@@ -1,0 +1,21 @@
+
+
+flyway:
+  enabled: false 
+  baseline-on-migrate: false
+
+app:
+  name: SpringSecurityDpc
+
+jwt:
+  header: Authorization
+  expires_in: 1000000000 
+  mobile_expires_in: 100000 
+  secret: slim
+  cookie: AUTH-TOKEN
+  
+  
+
+spring:
+  main:
+    banner-mode: console
